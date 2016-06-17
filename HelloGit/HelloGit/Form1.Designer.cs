@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnBok = new System.Windows.Forms.Button();
+            this.btnNb = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnBok
@@ -41,11 +42,22 @@
             this.btnBok.UseVisualStyleBackColor = true;
             this.btnBok.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnNb
+            // 
+            this.btnNb.Location = new System.Drawing.Point(89, 48);
+            this.btnNb.Name = "btnNb";
+            this.btnNb.Size = new System.Drawing.Size(75, 23);
+            this.btnNb.TabIndex = 1;
+            this.btnNb.Text = "novi_branch";
+            this.btnNb.UseVisualStyleBackColor = true;
+            this.btnNb.Click += new System.EventHandler(this.btnNb_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.btnNb);
             this.Controls.Add(this.btnBok);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,6 +68,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnBok;
+        private System.Windows.Forms.Button btnNb;
     }
 }
 

@@ -21,5 +21,10 @@ namespace HelloGit
         {
             MessageBox.Show("Bok!");
         }
+
+        private void btnNb_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("yee");
+        }
     }
 }
